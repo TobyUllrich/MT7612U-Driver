@@ -8622,10 +8622,10 @@ INT Set_TdlsDisableChannelSwitchProc(PRTMP_ADAPTER pAd, PSTRING arg);
 INT Set_Wpa_Support(RTMP_ADAPTER *pAd, PSTRING arg);
 #endif /* WPA_SUPPLICANT_SUPPORT */
 
-#ifdef DBG
+// #ifdef DBG
 VOID RTMPIoctlMAC(RTMP_ADAPTER *pAd, RTMP_IOCTL_INPUT_STRUCT *wrq);
 VOID RTMPIoctlE2PROM(RTMP_ADAPTER *pAd, RTMP_IOCTL_INPUT_STRUCT *wrq);
-#endif /* DBG */
+// #endif /* DBG */
 
 #ifdef WSC_STA_SUPPORT
 INT Set_WscConfMode_Proc(RTMP_ADAPTER *pAd, PSTRING arg);

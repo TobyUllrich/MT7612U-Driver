@@ -8717,7 +8717,7 @@ INT RTMPQueryInformation(IN PRTMP_ADAPTER pAd, IN OUT RTMP_IOCTL_INPUT_STRUCT *r
 	return Status;
 }
 
-#ifdef DBG
+// #ifdef DBG
 /*
     ==========================================================================
     Description:
@@ -9561,7 +9561,7 @@ err_free:
 	DBGPRINT(RT_DEBUG_TRACE, ("<==RTMPIoctlRF\n\n"));
 }
 #endif /* RTMP_RF_RW_SUPPORT */
-#endif /* DBG */
+// #endif /* DBG */
 
 #ifdef RT65xx
 static VOID RTMPIoctlBbp32(IN RTMP_ADAPTER *pAd,

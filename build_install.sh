@@ -4,7 +4,7 @@
 make clean
 
 # build the driver
-make
+make -j4
 
 # install the driver
 sudo make install

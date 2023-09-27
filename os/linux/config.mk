@@ -621,7 +621,7 @@ endif
 ########################################################
 
 ifeq ($(RT28xx_MODE),STA)
-WFLAGS += -DCONFIG_STA_SUPPORT -DSCAN_SUPPORT -DDBG
+WFLAGS += -DCONFIG_STA_SUPPORT -DSCAN_SUPPORT
 
 ifeq ($(HAS_MT76XX_BT_COEXISTENCE_SUPPORT),y)
 WFLAGS += -DMT76XX_BTCOEX_SUPPORT

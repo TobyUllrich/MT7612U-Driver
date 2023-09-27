@@ -1,5 +1,6 @@
-# MediaTek MT7612U driver 
-### build/install and uninstall procedure
+# Energy-Robotics Fork of MediaTek MT7612U driver
+Main repository: https://github.com/caruofc/MT7612U-Driver
+## build/install and uninstall procedure
 
 'makefile' has been configured in **STA** mode and has been tested on **Jetson Nano with JetPack 4.5**.
 
